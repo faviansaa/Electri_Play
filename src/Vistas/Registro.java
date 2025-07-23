@@ -39,6 +39,7 @@ public class Registro extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jTextField7 = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
+        Boton_volver = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         jLabel8.setText("Contraseña: ");
@@ -119,6 +120,14 @@ public class Registro extends javax.swing.JFrame {
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 180, 370, 230));
 
+        Boton_volver.setText("Volver");
+        Boton_volver.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Boton_volverActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Boton_volver, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fondo.png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 420));
 
@@ -143,6 +152,12 @@ public class Registro extends javax.swing.JFrame {
     private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField7ActionPerformed
+
+    private void Boton_volverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton_volverActionPerformed
+        Acceso acceso = new Acceso();
+        acceso.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_Boton_volverActionPerformed
 
     /**
      * @param args the command line arguments
@@ -180,6 +195,7 @@ public class Registro extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Boton_volver;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
