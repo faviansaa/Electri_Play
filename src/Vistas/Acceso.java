@@ -83,6 +83,11 @@ public class Acceso extends javax.swing.JFrame {
 
     private void Boton_CrearCuentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton_CrearCuentaActionPerformed
         
+        Registro form = new Registro();
+        form.setVisible(true);
+        this.dispose();
+        
+        
     }//GEN-LAST:event_Boton_CrearCuentaActionPerformed
 
     private void Boton_IniciarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton_IniciarSesionActionPerformed
