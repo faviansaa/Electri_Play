@@ -94,7 +94,7 @@ public class QueEsLaElectricidad extends javax.swing.JFrame {
 
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText(" La electricidad se mueve como una corriente invisible, parecida al agua, pero en vez de agua, lleva electrones (partículas muy pequeñitas que no podemos ver). ¡Gracias a ella, nuestro mundo funciona mejor!");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 440, 20));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 440, 60));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/robot con bombillo1.png"))); // NOI18N
         jLabel6.setText("jLabel6");

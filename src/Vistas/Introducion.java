@@ -81,14 +81,18 @@ public class Introducion extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("👋 ¡Hola, genio eléctrico!");
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo .png"))); // NOI18N
 
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("⚡¡Hola, joven explorador de la electricidad!.");
 
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("🔌 Explora circuitos, experimenta con energía y juega mientras aprendes.");
 
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText(" 🎯 ¡Cada chispa de curiosidad te hace más brillante!");
 
         jButton6.setBackground(new java.awt.Color(255, 94, 0));

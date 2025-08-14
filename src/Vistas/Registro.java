@@ -51,11 +51,13 @@ public class Registro extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo .png"))); // NOI18N
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 10, 120, 130));
 
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("¿Estas listo para comenzar está increible aventura ?, Registrate");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 150, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Correo: ");
 
         jButton1.setBackground(new java.awt.Color(0, 0, 0));
@@ -68,6 +70,7 @@ public class Registro extends javax.swing.JFrame {
             }
         });
 
+        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Contraseña: ");
 
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
@@ -76,6 +79,7 @@ public class Registro extends javax.swing.JFrame {
             }
         });
 
+        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("Nombre completo:");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

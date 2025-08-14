@@ -46,6 +46,7 @@ public class Pregunta_1Nivel_1 extends javax.swing.JFrame {
         jPanel4.setPreferredSize(new java.awt.Dimension(769, 433));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("❓¿Qué es la electricidad?");
         jPanel4.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, -1, 20));
 
@@ -62,6 +63,7 @@ public class Pregunta_1Nivel_1 extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(77, 166, 255));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("A) Un tipo de agua que usamos para bañarnos 🚿");
+        jButton1.setToolTipText("");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

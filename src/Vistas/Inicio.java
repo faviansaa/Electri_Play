@@ -50,15 +50,19 @@ public class Inicio extends javax.swing.JFrame {
         jButton5.setText("cerrar");
         jPanel2.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, -1, -1));
 
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("👋 ¡Hola, genio eléctrico!");
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, -1, -1));
 
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("⚡¡Hola, joven explorador de la electricidad!.");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, -1, -1));
 
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("🔌 Explora circuitos, experimenta con energía y juega mientras aprendes.");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, -1, -1));
 
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText(" 🎯 ¡Cada chispa de curiosidad te hace más brillante!");
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 260, -1, -1));
 
