@@ -35,18 +35,23 @@ public class Principal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(230, 247, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(769, 433));
 
+        jLabel2.setBackground(new java.awt.Color(230, 247, 255));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo .png"))); // NOI18N
         jLabel2.setOpaque(true);
 
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("👋 ¡Hola, genio eléctrico!");
 
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("⚡ Bienvenido a ElectriPlay, el lugar donde aprender electricidad es divertido.");
 
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("🔌 Explora circuitos, experimenta con energía y juega mientras aprendes.");
 
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText(" 🎯 ¡Cada chispa de curiosidad te hace más brillante!");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

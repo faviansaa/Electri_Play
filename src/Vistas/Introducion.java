@@ -42,7 +42,7 @@ public class Introducion extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(230, 247, 255));
 
         jButton4.setBackground(new java.awt.Color(236, 34, 31));
         jButton4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -205,7 +205,9 @@ public class Introducion extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+        Inicio nuevaVentana = new Inicio();
+        nuevaVentana.setVisible(true); //abre la ventana inicio
+        this.dispose();//cierra la actual
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -213,9 +215,9 @@ public class Introducion extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-    PreguntasInstruciones nuevaVentana = new PreguntasInstruciones();
-    nuevaVentana.setVisible(true);//abre la ventana QueEsLaElectricidad
-    this.dispose(); // Cierra la ventana actual
+        PreguntasInstruciones nuevaVentana = new PreguntasInstruciones();
+        nuevaVentana.setVisible(true);//abre la ventana QueEsLaElectricidad
+        this.dispose(); // Cierra la ventana actual
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed

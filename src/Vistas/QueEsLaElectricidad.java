@@ -72,6 +72,11 @@ public class QueEsLaElectricidad extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(236, 34, 31));
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("PREGUNTAS");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 10, 120, 40));
 
         jButton4.setBackground(new java.awt.Color(13, 144, 204));
@@ -123,7 +128,7 @@ public class QueEsLaElectricidad extends javax.swing.JFrame {
         jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, -1));
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(230, 247, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(769, 433));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 769, 433));
@@ -136,12 +141,23 @@ public class QueEsLaElectricidad extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        Inicio nuevaVentana = new Inicio();
+        nuevaVentana.setVisible(true);// abro pantalla inicio
+        this.dispose();// cierro la actual
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
+    QueObjetosUsanElectricidadEnCasa nuevaVentana = new QueObjetosUsanElectricidadEnCasa();
+    nuevaVentana.setVisible(true);
+    this.dispose();
+    
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        PreguntasInstruciones nuevaVentana = new PreguntasInstruciones();
+        nuevaVentana.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments

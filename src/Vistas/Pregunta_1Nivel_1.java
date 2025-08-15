@@ -37,7 +37,7 @@ public class Pregunta_1Nivel_1 extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -96,8 +96,9 @@ public class Pregunta_1Nivel_1 extends javax.swing.JFrame {
         });
         jPanel4.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 400, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fondo preguntas1.png"))); // NOI18N
-        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 770, 430));
+        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fondo preguntas1_1.png"))); // NOI18N
+        fondo.setPreferredSize(new java.awt.Dimension(769, 433));
+        jPanel4.add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 440));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -195,11 +196,11 @@ public class Pregunta_1Nivel_1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel fondo;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

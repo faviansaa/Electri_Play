@@ -46,7 +46,7 @@ public class QueObjetosUsanElectricidadEnCasa extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(230, 247, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(769, 433));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

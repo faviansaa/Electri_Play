@@ -43,7 +43,7 @@ public class CómoPodemosAhorrarElectricidad extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(230, 247, 255));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setMinimumSize(new java.awt.Dimension(760, 423));
         jPanel1.setPreferredSize(new java.awt.Dimension(769, 433));
