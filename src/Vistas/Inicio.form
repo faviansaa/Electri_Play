@@ -68,9 +68,6 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="\ud83d\udc4b &#xa1;Hola, genio el&#xe9;ctrico!" containsInvalidXMLChars="true"/>
           </Properties>
           <Constraints>
@@ -81,9 +78,6 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="&#x26a1;&#xa1;Hola, joven explorador de la electricidad!."/>
           </Properties>
           <Constraints>
@@ -94,9 +88,6 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="\ud83d\udd0c Explora circuitos, experimenta con energ&#xed;a y juega mientras aprendes." containsInvalidXMLChars="true"/>
           </Properties>
           <Constraints>
@@ -107,9 +98,6 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value=" \ud83c\udfaf &#xa1;Cada chispa de curiosidad te hace m&#xe1;s brillante!" containsInvalidXMLChars="true"/>
           </Properties>
           <Constraints>

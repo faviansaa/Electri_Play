@@ -42,7 +42,7 @@ public class IniciarSesion extends javax.swing.JFrame {
         if (resultado.next()) {
             JOptionPane.showMessageDialog(this, "Inicio de sesión exitoso.");
             
-            Introducion ventanaPrincipal = new Introducion();
+            Inicio ventanaPrincipal = new Inicio();
             ventanaPrincipal.setVisible(true);
             this.dispose();
         } else {
