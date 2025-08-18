@@ -39,7 +39,7 @@
           <Color blue="ff" green="f7" red="e6" type="rgb"/>
         </Property>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-          <Dimension value="[769, 433]"/>
+          <Dimension value="[790, 460]"/>
         </Property>
       </Properties>
 
@@ -141,7 +141,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="400" width="-1" height="-1"/>
+              <AbsoluteConstraints x="10" y="410" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -166,11 +166,13 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="En tu casa, muchos objetos usan electricidad para funcionar.&#x2028; Algunos calientan cosas, otros dan luz, y otros te ayudan a aprender o jugar."/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;&lt;html&gt;En tu casa, muchos objetos usan electricidad para funcionar.&#x2028; Algunos calientan cosas, otros dan luz, y otros te ayudan a aprender o jugar.&lt;html&gt;&quot;" type="code"/>
+            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="230" y="120" width="380" height="-1"/>
+              <AbsoluteConstraints x="230" y="110" width="380" height="50"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -179,11 +181,13 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="\ud83d\udecb&#xfe0f; Sala:  \ud83d\udcfa Televisor \ud83d\udca1 Bombillos \ud83d\udd0c Enchufes" containsInvalidXMLChars="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;&lt;html&gt;&#xfe0f;&#xd83d;&#xdecb;&#xfe0f; Sala:\n&quot; +&#xa;&quot;\n&quot; +&#xa;&quot;&#xd83d;&#xdcfa; Televisor\n&quot; +&#xa;&quot;&#xd83d;&#xdca1; Bombillos\n&quot; +&#xa;&quot;&#xd83d;&#xdd0c; Enchufes&lt;html&gt;&quot;" type="code"/>
+            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="200" y="170" width="50" height="-1"/>
+              <AbsoluteConstraints x="200" y="170" width="130" height="90"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -192,11 +196,13 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="\ud83c\udf7d&#xfe0f; Cocina:  \ud83d\udd25 Estufa el&#xe9;ctrica \ud83c\udf5e Tostadora &#x2744;&#xfe0f; Nevera" containsInvalidXMLChars="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;&lt;html&gt;&#xfe0f;&#xd83c;&#xdf7d;&#xfe0f; Cocina:\n&quot; +&#xa;    &quot;\n&quot; +&#xa;    &quot;&#xd83d;&#xdd25; Estufa el&#xe9;ctrica\n&quot; +&#xa;    &quot;&#xd83c;&#xdf5e; Tostadora\n&quot; +&#xa;    &quot;&#x2744;&#xfe0f; Nevera&lt;html&gt;&quot;" type="code"/>
+            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="350" y="170" width="70" height="-1"/>
+              <AbsoluteConstraints x="380" y="170" width="120" height="90"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -205,11 +211,13 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="\ud83e\uddfc Ba&#xf1;o / Lavander&#xed;a:  \ud83d\udebf Calentador de agua \ud83c\udf00 Lavadora \ud83d\udd0c Secador de pelo" containsInvalidXMLChars="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;&lt;html&gt;&#xd83e;&#xddfc; Ba&#xf1;o / Lavander&#xed;a:\n&quot; +&#xa;&quot;\n&quot; +&#xa;&quot;&#xd83d;&#xdebf; Calentador de agua\n&quot; +&#xa;&quot;&#xd83c;&#xdf00; Lavadora\n&quot; +&#xa;&quot;&#xd83d;&#xdd0c; Secador de pelo&lt;html&gt;&quot;" type="code"/>
+            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="200" y="250" width="50" height="-1"/>
+              <AbsoluteConstraints x="200" y="270" width="130" height="90"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -218,11 +226,13 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="\ud83d\udecf&#xfe0f; Habitaci&#xf3;n:  \ud83d\udca1 L&#xe1;mpara \ud83d\udd0b Cargador \ud83c\udfae Consola de videojuegos" containsInvalidXMLChars="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;&lt;html&gt;&#xd83d;&#xdecf;&#xfe0f; Habitaci&#xf3;n:\n&quot; +&#xa;&quot;\n&quot; +&#xa;&quot;&#xd83d;&#xdca1; L&#xe1;mpara\n&quot; +&#xa;&quot;&#xd83d;&#xdd0b; Cargador\n&quot; +&#xa;&quot;&#xd83c;&#xdfae; Consola de videojuegos&lt;html&gt;&quot;" type="code"/>
+            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="340" y="250" width="90" height="-1"/>
+              <AbsoluteConstraints x="340" y="270" width="130" height="90"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -232,13 +242,16 @@
               <Color blue="e7" green="c7" red="a7" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="\ud83d\udc48 Regresar:  &#xbf;Qu&#xe9; es la electricidad?" containsInvalidXMLChars="true"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+          </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="190" y="390" width="-1" height="-1"/>
+              <AbsoluteConstraints x="190" y="420" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -248,7 +261,7 @@
               <Color blue="90" green="b3" red="40" type="rgb"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="\ud83d\udfe2 Siguiente:  &#xbf;De d&#xf3;nde viene la electricidad?" containsInvalidXMLChars="true"/>
           </Properties>
@@ -257,17 +270,19 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="190" y="340" width="-1" height="-1"/>
+              <AbsoluteConstraints x="190" y="380" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
-            <Property name="text" type="java.lang.String" value="\ud83e\uddd0 &#xbf;Sab&#xed;as que&#x2026;? &#x2028; Si dejas los aparatos enchufados sin usarlos, &#xa1;tambi&#xe9;n gastan electricidad!" containsInvalidXMLChars="true"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="&quot;&lt;html&gt;&#xd83e;&#xddd0; &#xbf;Sab&#xed;as que&#x2026;? &#x2028; Si dejas los aparatos enchufados sin usarlos, &#xa1;tambi&#xe9;n gastan electricidad!&lt;html&gt;&quot;" type="code"/>
+            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="530" y="350" width="210" height="70"/>
+              <AbsoluteConstraints x="540" y="360" width="210" height="70"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -280,7 +295,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="520" y="170" width="190" height="-1"/>
+              <AbsoluteConstraints x="560" y="170" width="190" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>

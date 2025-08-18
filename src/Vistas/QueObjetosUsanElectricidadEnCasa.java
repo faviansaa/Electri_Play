@@ -47,7 +47,7 @@ public class QueObjetosUsanElectricidadEnCasa extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(230, 247, 255));
-        jPanel1.setPreferredSize(new java.awt.Dimension(769, 433));
+        jPanel1.setPreferredSize(new java.awt.Dimension(790, 460));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo .png"))); // NOI18N
@@ -86,7 +86,7 @@ public class QueObjetosUsanElectricidadEnCasa extends javax.swing.JFrame {
         jButton6.setBackground(new java.awt.Color(236, 34, 31));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Cerrar");
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 400, -1, -1));
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, -1, -1));
 
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("¿Qué objetos usan electricidad en casa?");
@@ -94,46 +94,67 @@ public class QueObjetosUsanElectricidadEnCasa extends javax.swing.JFrame {
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel3.setText("En tu casa, muchos objetos usan electricidad para funcionar.  Algunos calientan cosas, otros dan luz, y otros te ayudan a aprender o jugar.");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 380, -1));
+        jLabel3.setText("<html>En tu casa, muchos objetos usan electricidad para funcionar.  Algunos calientan cosas, otros dan luz, y otros te ayudan a aprender o jugar.<html>");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 110, 380, 50));
 
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel4.setText("🛋️ Sala:  📺 Televisor 💡 Bombillos 🔌 Enchufes");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 50, -1));
+        jLabel4.setText("<html>️🛋️ Sala:\n" +
+            "\n" +
+            "📺 Televisor\n" +
+            "💡 Bombillos\n" +
+            "🔌 Enchufes<html>");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 130, 90));
 
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel5.setText("🍽️ Cocina:  🔥 Estufa eléctrica 🍞 Tostadora ❄️ Nevera");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, 70, -1));
+        jLabel5.setText("<html>️🍽️ Cocina:\n" +
+            "\n" +
+            "🔥 Estufa eléctrica\n" +
+            "🍞 Tostadora\n" +
+            "❄️ Nevera<html>");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 170, 120, 90));
 
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel6.setText("🧼 Baño / Lavandería:  🚿 Calentador de agua 🌀 Lavadora 🔌 Secador de pelo");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 250, 50, -1));
+        jLabel6.setText("<html>🧼 Baño / Lavandería:\n" +
+            "\n" +
+            "🚿 Calentador de agua\n" +
+            "🌀 Lavadora\n" +
+            "🔌 Secador de pelo<html>");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 270, 130, 90));
 
         jLabel7.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel7.setText("🛏️ Habitación:  💡 Lámpara 🔋 Cargador 🎮 Consola de videojuegos");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 250, 90, -1));
+        jLabel7.setText("<html>🛏️ Habitación:\n" +
+            "\n" +
+            "💡 Lámpara\n" +
+            "🔋 Cargador\n" +
+            "🎮 Consola de videojuegos<html>");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 270, 130, 90));
 
         jButton5.setBackground(new java.awt.Color(167, 199, 231));
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setForeground(new java.awt.Color(0, 0, 0));
         jButton5.setText("👈 Regresar:  ¿Qué es la electricidad?");
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, -1, -1));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 420, -1, -1));
 
         jButton7.setBackground(new java.awt.Color(64, 179, 144));
-        jButton7.setForeground(new java.awt.Color(255, 255, 255));
+        jButton7.setForeground(new java.awt.Color(0, 0, 0));
         jButton7.setText("🟢 Siguiente:  ¿De dónde viene la electricidad?");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 340, -1, -1));
+        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 380, -1, -1));
 
-        jLabel8.setText("🧐 ¿Sabías que…?   Si dejas los aparatos enchufados sin usarlos, ¡también gastan electricidad!");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 350, 210, 70));
+        jLabel8.setText("<html>🧐 ¿Sabías que…?   Si dejas los aparatos enchufados sin usarlos, ¡también gastan electricidad!<html>");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 360, 210, 70));
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen de casa1.jpg"))); // NOI18N
         jLabel9.setText("jLabel9");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, 190, -1));
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 170, 190, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -160,6 +181,10 @@ public class QueObjetosUsanElectricidadEnCasa extends javax.swing.JFrame {
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
